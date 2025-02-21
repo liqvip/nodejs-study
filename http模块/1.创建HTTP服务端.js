@@ -28,6 +28,9 @@ const server = http.createServer((req, res) => {
     res.end('你好\n');
 });
 
+/**
+ * net.Server (listen)
+ */
 server.listen(80, () => {
     console.log('Server is running...');
 });
