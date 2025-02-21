@@ -3,18 +3,21 @@ const http = require('http');
 
 
 /**
- *
- * server net.Server
+ * http.js - createServer
+ *  |
+ * _http_server - Server (this.on('request', requestListener), server.emit('request', req, res);)
+ *  |
+ * net.Server
  */
 const server = http.createServer((req, res) => {
 
     /**
-     * Request 和 Response 对象的继承关系
-     *
+     * Request 对象的继承关系
      * Request
      *    |
      * IncomingMessage
      *
+     * Response 对象的继承关系
      * Response
      *      |
      * ServerResponse (writeHead)
