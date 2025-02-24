@@ -18,18 +18,28 @@ http 模块是 Node.js 的核心模块，用于创建 HTTP 服务器和客户端
 
 网页的绝对路径和相对路径
 
-绝对路径的形式
-
+## 绝对路径的形式
 绝对路径可靠性强，而且相对容易理解，在项目中运用较多
 
 - http://baidu.com ，直接向目标资源发送请求，容易理解，网站的外部会用到此形式
 - //baidu.com ，省略了协议，会根据当前页面的协议来请求资源，http 或 https
-- /web，与页面 URL 的协议、主机、端口拼接形成完整 URL 再发送请求。中小型网站。
+- /web，与页面 URL 的协议、主机、端口拼接形成完整 URL 再发送请求。中小型网站。(推荐使用)
 
-相对路径的形式
-
+## 相对路径的形式
 相对路径在发送请求时，需要与当前页面 URL 进行计算，得到完整 URL 后，再发送请求，学习阶段用的比较多。
+
 - .css/app.css
 - js/app.js
 - ../img/logo.png
 - ../../mp4/show.mp4
+
+## 页面 URL 的使用场景
+- a 标签 href
+- link 标签 link
+- script 标签 src
+- img 标签 src
+- video audio 标签 src
+- form 标签 action
+- ajax 请求中 url
+
+## 设置 MIME 类型
