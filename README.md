@@ -43,3 +43,29 @@ http 模块是 Node.js 的核心模块，用于创建 HTTP 服务器和客户端
 - ajax 请求中 url
 
 ## 设置 MIME 类型
+
+## GET 和 POST 请求应用场景和区别
+场景小结
+
+GET 请求的情况
+- 在地址栏直接输入 url 访问
+- 点击 a 链接
+- link 标签引入 css
+- script 标签引入 js
+- img 标签引入图片
+- video audio 标签引入视频音频
+- ajax 请求中 get 请求
+- form 表单 method 为 get(不区分大小写)
+
+POST 请求的情况
+- form 表单 method 为 post(不区分大小写)
+
+GET 和 POST 请求的区别
+  GET 和 POST 是 HTTP 协议的两种请求方式，GET 请求和 POST 请求的区别主要有以下几点：
+
+1. 作用。GET 请求用于获取数据，POST 请求用于提交数据。
+2. 参数传递。GET 请求通过 URL 传递参数，POST 请求通过请求体传递参数。
+3. 安全性。GET 请求的参数会显示在 URL 中，POST 请求的参数不会显示在 URL 中。
+4. 数据大小。GET 请求传递的数据大小有限制，一般为 2k，POST 请求传递的数据大小没有限制。
+
+    
