@@ -1,0 +1,14 @@
+{
+  "singers": [
+    {"singer_name": "Adele", "singer_id": 1},
+    {"singer_name": "Beyoncé", "singer_id": 2},
+    {"singer_name": "Bruno Mars", "singer_id": 3},
+    {"singer_name": "Ed Sheeran", "singer_id": 4},
+    {"singer_name": "Taylor Swift", "singer_id": 5},
+    {"singer_name": "Rihanna", "singer_id": 6},
+    {"singer_name": "Justin Bieber", "singer_id": 7},
+    {"singer_name": "Lady Gaga", "singer_id": 8},
+    {"singer_name": "Katy Perry", "singer_id": 9},
+    {"singer_name": "Sam Smith", "singer_id": 10}
+  ]
+}
