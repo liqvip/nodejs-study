@@ -40,3 +40,13 @@ express 可以使用 body-parser 中间件来解析请求体数据
 
 ## 防盗链的实现
 
+
+# EJS 模板引擎
+## 什么是 模版引擎
+模版引擎是分离`用户界面`和`业务数据`的一种技术，模版引擎可以将数据和模版文件结合生成最终的 HTML 文件
+
+## 什么是 EJS
+EJS 是一个高效的 JavaScript 模版引擎
+官网：[https://ejs.co/](https://ejs.co/)
+中文站: [https://ejs.bootcss.com/](https://ejs.bootcss.com/)
+
